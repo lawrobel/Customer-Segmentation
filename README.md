@@ -1,5 +1,5 @@
-## Simulated Transactions Analysis Workbook
-# Evaluating Customer Value on Simulated Data Using Excel 
+# Simulated Transactions Analysis Workbook
+## Evaluating Customer Value on Simulated Data Using Excel 
 ***
 
 ## What is This Excel Workbook?
@@ -15,8 +15,8 @@ specified values.
 This workbook contains two sheets: <i>Simulated Transaction Data</i> and <i>Customer Profiles</i>.
 </p>
 
-# The Simulated Transaction Data sheet
-
+#### The Simulated Transaction Data sheet
+<p>
 This sheet consists of a table of simulated transactions data, boxes for specifying transactions amount and customer id distribution parameters, a box for specifying the number of 
 transactions to be used in the simulation, histograms for the distributions
 of transactions amounts and customer ids, and also two buttons for populating
@@ -36,6 +36,20 @@ or re-populating the columns of the table with data depending on the parameters 
 <p><ul><li> <b>Transaction Amount</b> Random transaction amounts sampled from the gamma distribution. The lowest price transaction is assured to be no less than $3.00
 </li></ul></p>
 
-# The Customer Profiles sheet
+#### The Customer Profiles sheet
 
-<p> </p>
+<p> This sheet consists of a table of customer value metrics for each customer, a box for specifying the weights assigned to each metric, a box for the average values of frequency, recency, and transaction amount, and also a box summarizing the number of customers in each value tier and the cutoff values for each tier. The customers are segmented into the groups none, valued, more valued, and most valued. The default cutoffs are as follows: Customers in the 75th-90th  percentile of customer value are deemed valued customers (green), those in the 90th-95th percentile are more valued (silver), and those above the 95th percentile are most valued (gold). The columns in the transaction table are: </p>
+
+<p><ul><li> <b>CustomerID</b> The CustomerID column from the Simulated Transactions Data Sheet. </li></ul></p>
+<p><ul><li> <b>Date of Last Transaction</b> The customer’s last transaction date</li></ul></p>
+<p><ul><li> <b>Monetary</b> The maximum transaction amount by the customer divided by the average transaction amount </li></ul></p>
+<p><ul><li> <b>Recency</b> The number of months since the customer’s last transaction</li></ul></p>
+<p><ul><li> <b>Frequency</b> The number of distinct times a transaction was placed by the customer </li></ul></p>
+<p><ul><li> <b>Customer Value</b> A weighted sum of the Monetary, Recency, and Frequency metrics for the customer (round to two decimal places) </li></ul></p>
+
+
+
+
+
+
+
