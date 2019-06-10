@@ -5,8 +5,7 @@
 ## What is This Excel Workbook?
 
 <p> This excel workbook can be used to evaluate customer value using a variant of RFM (Recency, Frequency, Monetary) analysis on a dynamic simulated transactions table. The user can specify parameters such as number of transactions, shape and scale of
-distributions used to generate the data, and RFM weights. The workbook contains macros which are used to simulate the data according to the user
-specified values.
+distributions used to generate the data, and RFM weights. The workbook contains macros which are used to simulate the data according to the user specified values.
 </p>
 
 ## Structure and Content of This Workbook 
@@ -18,9 +17,8 @@ This workbook contains two sheets: <i>Simulated Transaction Data</i> and <i>Cust
 #### The Simulated Transaction Data sheet
 <p>
 This sheet consists of a table of simulated transactions data, boxes for specifying transactions amount and customer id distribution parameters, a box for specifying the number of 
-transactions to be used in the simulation, histograms for the distributions
-of transactions amounts and customer ids, and also two buttons for populating
-or re-populating the columns of the table with data depending on the parameters entered in the boxes. The columns in the transaction table are:
+transactions to be used in the simulation and histograms for the distributions
+of transactions amounts and customer ids. Also included is a button for simulating data and a button for fixing the simulated data (to prevent regenerating data after each new action). The columns in the transaction table are:
 </p>
 
 <p><ul><li> <b>Transaction ID</b> Unique ID numbers from 9121300 to 9121300 +  number of transactions
