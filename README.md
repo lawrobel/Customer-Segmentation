@@ -40,7 +40,7 @@ of transactions amounts and customer ids. Also included is a button for simulati
 
 <p><ul><li> <b>CustomerID</b> The CustomerID column from the Simulated Transactions Data Sheet. </li></ul></p>
 <p><ul><li> <b>Date of Last Transaction</b> The customer’s last transaction date</li></ul></p>
-<p><ul><li> <b>Monetary</b>Monetary is calculated as the maximum transaction amount by the customer divided by the average transaction amount (max of 10)	</li></ul></p>
+<p><ul><li> <b>Monetary</b> Monetary is calculated as the maximum transaction amount by the customer divided by the average transaction amount (max of 10)	</li></ul></p>
 <p><ul><li> <b>Recency</b> Recency is the number of months since the last transaction  (max of 10) </li></ul></p>
 <p><ul><li> <b>Frequency</b> Frequency is the number of distinct times a transaction was placed divided by the average number of times a transaction was placed (max of 10) </li></ul></p>
 <p><ul><li> <b>Customer Value</b> A weighted sum of the Monetary, Recency, and Frequency metrics for the customer (rounded to two decimal places) </li></ul></p>
